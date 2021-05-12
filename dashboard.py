@@ -19,13 +19,14 @@ with st.beta_expander("Know More about Terms"):
     """)
 
 with st.beta_expander("Data Credits"):
-    st.write("Our World in Data : https://ourworldindata.org/covid-vaccinations?country=CHN")
     st.write("Postman : https://covid-19-apis.postman.com/")
+    st.write("Our World in Data : https://ourworldindata.org/covid-vaccinations?country=CHN")
+
 
 with st.beta_expander("Note"):
     st.write("""
-        All the data realted to vaccination details is of every last day i.e. data of day before you are reading this line.
-        And all the data related to case details of is of today i.e. of ongoing day.
+        All the data related to vaccination details is of every last day i.e. data of day before you are reading this line.
+        And all the data related to case details is of today i.e. of ongoing day.
      """)
      
 st.write("*Contribution by Sushant Pagam*")
